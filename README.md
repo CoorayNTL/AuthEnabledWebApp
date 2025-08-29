@@ -18,9 +18,8 @@ This is a simple ASP.NET Core MVC app with authentication:
 - **User Identity**: Stored in SQLite with hashing via Identity.
 - **Access Enforcement**: [Authorize] attribute on ProtectedController.
 - **Session Timeout**: Configurable via cookie expiration (default 14 days, customizable to 30 min).
-- **Forced Logout**: Handled via SignInManager.SignOutAsync().
 - **Audit Logging**: Could add middleware to log auth events.
-- **Assumptions**: Minimal setup; Google for SSO. Used AI (Grok) for code snippets.
+- **Minimal setup; Google for SSO. Used AI (Grok) for code snippets.
 
 ## Bonus: Authorization Expansion
 - Add roles (e.g., "Viewer") in SeedData.
