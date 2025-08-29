@@ -12,8 +12,6 @@ This is a simple ASP.NET Core MVC app with authentication:
 ## Setup
 1. Update Google ClientId/Secret in Program.cs (from Google Developer Console).
 2. Run `dotnet ef migrations add InitialCreate` and `dotnet ef database update` in Package Manager Console.
-3. Run the app at https://localhost:44357/.
-
 ## Considerations
 - **User Identity**: Stored in SQLite with hashing via Identity.
 - **Access Enforcement**: [Authorize] attribute on ProtectedController.
